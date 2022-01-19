@@ -1,0 +1,29 @@
+.grid {
+    margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    max-width: 700px;
+    max-height: 700px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    grid-gap: 15px;
+}
+.element {
+    overflow: hidden;
+    height: 110px;
+    border: 2px solid #B0E0E6;
+    width: 110px;
+    background-color: white;
+}
+body {
+    background: #000000;
+}
+h2{
+    color: darkkhaki;
+    font-size: 1.7em;
+    font-family: "Montserrat", sans-serif;
+}
+.billy{
+    background-image: url("img/billy.jpg");
+    background-size: cover;
+}
